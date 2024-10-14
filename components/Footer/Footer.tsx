@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import { Icons, icons } from "@/constants";
 import { Button } from "../ui/button";
-import { ReactNode } from "react";
 
 const Footer = () => {
   return (
