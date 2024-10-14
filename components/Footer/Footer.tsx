@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SocialIcons from "../shared/SocialIcons";
 import { icons } from "@/constants";
 import { Button } from "../ui/button";
 

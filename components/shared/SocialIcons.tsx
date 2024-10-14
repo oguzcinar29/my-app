@@ -1,4 +1,3 @@
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "../ui/button";
 
 const SocialIcons = ({ icons }: any) => {
