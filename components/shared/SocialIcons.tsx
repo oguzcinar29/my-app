@@ -1,9 +1,10 @@
+import { Icons } from "@/constants";
 import { Button } from "../ui/button";
 
 const SocialIcons = ({ icons }: any) => {
   return (
     <>
-      {icons.map((item: any, indx: any) => {
+      {icons.map((item: Icons, indx: number) => {
         return (
           <Button
             size={"icon"}

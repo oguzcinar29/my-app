@@ -1,4 +1,3 @@
-import { Twitter } from "lucide-react";
 import { Button } from "../ui/button";
 import SocialIcons from "../shared/SocialIcons";
 import { icons } from "@/constants";

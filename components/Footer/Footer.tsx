@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { icons } from "@/constants";
+
+import { Icons, icons } from "@/constants";
 import { Button } from "../ui/button";
+import { ReactNode } from "react";
 
 const Footer = () => {
   return (
@@ -25,7 +27,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="flex items-center gap-5 flex-wrap ">
-            {icons.map((item: any, indx: any) => {
+            {icons.map((item: Icons, indx: number) => {
               return (
                 <div
                   key={indx}
